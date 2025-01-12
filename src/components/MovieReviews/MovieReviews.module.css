@@ -1,0 +1,22 @@
+.reviewsList {
+    padding-top: 20px;
+}
+
+.listItem {
+    text-align: justify;
+}
+
+.listItem:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+.listItemHeader {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.noReviewsMessage {
+    padding-top: 20px;
+    text-align: left;
+}
