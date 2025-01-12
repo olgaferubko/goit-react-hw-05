@@ -2,7 +2,7 @@ import { fetchCast } from "../../api_management/fetchResults.js";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Loader from "../../components/Loader/Loader";
-import s from "./Cast.module.css";
+import s from "./MovieCast.module.css";
 
 export default function MovieCast() {
     const { movieId } = useParams();
